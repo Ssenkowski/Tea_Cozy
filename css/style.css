@@ -75,17 +75,20 @@ body {
     text-align: center;
   }
 
-.tea-of-month-images {
-  display: inline-block;
-  text-align: center;
-  padding: 5px;
+  figure {
+      width: 25%;
+      float: left;
+      text-align: center;
+  }
 
-}
+  figure.bottom-left {
+    padding-left: 190px
+  }
 
-.caption {
-  display: block;
+  figure.bottom-right {
+    padding-right: 100px
+  }
 
-}
 
   /* Location */
 
