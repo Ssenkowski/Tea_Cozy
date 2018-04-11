@@ -98,18 +98,19 @@ body {
 }
 
 .address-box {
-  display: inline-block;
   width: 1000px;
   margin: auto;
   max-width: 1200px;
   padding-left: 59px;
   text-align: center;
+  z-index: 1;
 }
 
 .box-left {
   background-color: black;
   opacity: 1;
   width: 30%;
+  display: inline-block;
 
 }
 
@@ -118,6 +119,7 @@ body {
   opacity: 1;
   text-align: center;
   width: 30%;
+  display: inline-block;
 
 }
 
@@ -125,6 +127,8 @@ body {
   background-color: black;
   opacity: 1;
   width: 30%;
+  display: inline-block;
+
 }
 
 /* Contact */
