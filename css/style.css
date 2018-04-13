@@ -185,7 +185,8 @@ a { color: inherit; }
     padding-top: 10px;
     bottom: 0;
     text-align: left;
-    position: fixed;
+    position: absolute;
     left: 20px;
-    bottom: 0px;
+    top: 2150px;
+    z-index: 1;
   }
